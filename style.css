@@ -17,7 +17,7 @@ header{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),url('images/header.jpg');
     background-size: cover;
     background-size: cover;
-    background-position: center 30%;
+    background-position: center 20%;
     background-repeat: no-repeat;
     height: 400px;
 }
@@ -93,32 +93,44 @@ main button{
     display: inline-block;
     box-sizing: border-box; 
     padding: 20px 70px;
+    color: rgb(112,92,164);
 }
 .Service> div> div:nth-child(2) {
     border: 0.5px solid grey;
     display: inline-block;
     box-sizing: border-box; 
     padding: 20px 70px;
+    color: rgb(112,92,164);
 }
 .Service> div> div:nth-child(3) {
     border: 0.5px solid grey;
     display: inline-block;
     box-sizing: border-box; 
     padding: 20px 70px;
+    color: rgb(112,92,164);
 }
 .Service> div> div:nth-child(4) {
     border: 0.5px solid grey;
     display: inline-block;
     box-sizing: border-box; 
     padding: 20px 70px;
+    color: rgb(112,92,164);
 }
 .Service img{
     height: 60px;
 }
-.Service p:nth-child(1){
+/* .Service p:nth-of-type(1){
+    font-family: "Noto Sans JP", sans-serif;
+} */
+#p1service {
     font-family: "Noto Sans JP", sans-serif;
 }
-.Service p:nth-child(2){
+.Service p:nth-of-type(2){
     font-family:"Black Han Sans", sans-serif;
+    color: rgb(112,92,164);
+    font-size: 20px;
+}
+section.Service > div > div > p {
+    font-family: "Black Han Sans", sans-serif;
     color: rgb(112,92,164);
 }
