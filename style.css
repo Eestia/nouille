@@ -160,3 +160,33 @@ section.Service > div > div > p {
     border-radius: 2px;
     padding: 12px;
 }
+.Pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Pricing div{
+    display: flex;
+}
+.Pricing img{
+    width: 100px;
+}
+#Free{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 30px;
+}
+#Basic{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 30px;
+}
+#Premium{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 30px;
+}
