@@ -16,10 +16,10 @@ nav div:nth-of-type(2){
 header{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),url('images/header.jpg');
     background-size: cover;
-    background-position: top;
-    background-position: center;
+    background-size: cover;
+    background-position: center 30%;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 400px;
 }
 header > section:first-of-type {
     font-family:"Black Han Sans", sans-serif;
@@ -50,10 +50,13 @@ section button{
 main{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap:30px;
+
 }
 main img{
    height: 500px;
+   /* border: 1px solid rgb(112,92,164); */
 }
 main p:nth-child(1){
     font-family: "Noto Sans JP", sans-serif;
@@ -61,6 +64,7 @@ main p:nth-child(1){
 main p:nth-child(2){
     font-family:"Black Han Sans", sans-serif;
     color: rgb(112,92,164);
+    font-size: 25px;
 }
 main p:nth-child(3){
     font-family: "Noto Sans JP", sans-serif;
@@ -72,4 +76,6 @@ main button{
     border-radius: 20px;
     padding: 10px;
 }
-main div{}
+main div{
+    /* border: 1px solid rgb(112,92,164); */
+}
