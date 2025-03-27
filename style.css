@@ -76,6 +76,37 @@ main button{
     border-radius: 20px;
     padding: 10px;
 }
-main div{
-    /* border: 1px solid rgb(112,92,164); */
+/* main div{
+    border: 1px solid rgb(112,92,164);
+} */
+.Service{
+    display: flex;
+    flex-direction: column;
+}
+.Service> div> div:nth-child(1) {
+    border: 0.5px solid grey;
+    display: inline-block;
+    box-sizing: border-box; 
+    padding: 30px 50px;
+}
+.Service> div> div:nth-child(2) {
+    border: 0.5px solid grey;
+    display: inline-block;
+    box-sizing: border-box; 
+    padding: 30px 50px;
+}
+.Service> div> div:nth-child(3) {
+    border: 0.5px solid grey;
+    display: inline-block;
+    box-sizing: border-box; 
+    padding: 30px 50px;
+}
+.Service> div> div:nth-child(4) {
+    border: 0.5px solid grey;
+    display: inline-block;
+    box-sizing: border-box; 
+    padding: 30px 50px;
+}
+.Service img{
+    height: 60px;
 }
