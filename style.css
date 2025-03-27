@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav div:nth-of-type(2){
+    display: flex;
+    gap: 10px;
+}
