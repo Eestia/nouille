@@ -134,3 +134,16 @@ section.Service > div > div > p {
     font-family: "Black Han Sans", sans-serif;
     color: rgb(112,92,164);
 }
+.Portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Portfolio div{
+    display: flex;
+    gap: 30px
+}
+.Portfolio>div> img{
+    width: 300px;
+}
