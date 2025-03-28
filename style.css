@@ -462,4 +462,13 @@ hr{
     font-size: 15px;
     margin: 30px;
  }
+ .Service > div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+ }
+ .Portfolio > div{
+    display: flex;
+    flex-direction: column;
+ }
 }
