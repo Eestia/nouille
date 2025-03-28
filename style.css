@@ -237,3 +237,38 @@ section.Service > div > div > p {
     background-color: white;
     margin: 20px;
 }
+.Testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: white;
+}
+.Testimonial div{
+    display: flex;
+    gap: 50px;
+}
+.Testimonial div div{
+    border: 1px solid rgba(128, 128, 128, 0.311);
+    display: flex;
+    flex-direction: column;
+}
+.Testimonial div div p{
+    margin-bottom: 0px;
+    box-sizing: border-box; 
+    padding: 20px 70px;
+}
+.Testimonial div div h5{
+    margin: 0px;
+    font-family: "Black Han Sans", sans-serif;
+    color: rgb(112,92,164);
+}
+.Testimonial img{
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px white solid;
+    transform: translateX(-50%); 
+    
+}
