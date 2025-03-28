@@ -36,7 +36,7 @@ section span:last-of-type{
     font-size: 20px;
     letter-spacing: 2px;
 }
-section span:first-of-type{
+#spanHi{
     font-family:"Black Han Sans", sans-serif;
     color: rgba(65,69,78,255);
 }
@@ -283,4 +283,88 @@ section.Service > div > div > p {
     font-size: 15px;
     letter-spacing: 0px;
     /* text-align: center; */
+}
+.Blog p{
+    font-family: "Noto Sans JP", sans-serif;
+}
+.Blog h3{
+    font-family: "Black Han Sans", sans-serif;
+    color: rgb(112,92,164);
+}
+.Blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.Blog img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+#BlogDiv1{
+    align-items: center;
+    display: flex;
+    height: 300px;
+    border: 1px rgb(199, 199, 199) solid;
+    width: 1100px;
+    gap: 20px;
+}
+/* #BlogDiv1 p{
+ padding-top: 10px;
+ padding-bottom: 10px;
+} */
+#BlogDiv2{
+    align-items: center;
+    display: flex;
+    height: 300px;
+    border: 1px rgb(199, 199, 199) solid;
+    width: 1100px;
+    gap: 20px;
+}
+#BlogDiv1 div{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    
+}
+#BlogDiv2 div{
+    display: flex;
+    flex-direction: column;
+}
+.Blog p{
+    font-size: 15px;
+    margin: 0px;
+}
+#SpanBlog{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#BlogDivs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#BlogDiv1 div{
+    height: 250px;
+    width: 700px;
+}
+#titreBlog{
+    font-family: "Black Han Sans", sans-serif;
+    color: rgb(112,92,164);
+}
+#ReadSpan{
+    font-family: "Noto Sans JP", sans-serif;
+    color: rgb(112,92,164);
+    font-size: 15px;
+}
+#spangrey{
+    font-family: "Noto Sans JP", sans-serif;
+    color: grey;
+}
+#BlogDivs p{
+    font-family: "Noto Sans JP", sans-serif;
 }
