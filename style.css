@@ -4,7 +4,6 @@
     margin: 0px;
 } */
 body {
-    outline: 2px solid red;
     margin: 0px;
 }
 nav{
@@ -494,5 +493,9 @@ hr{
  }
  .Testimonial h3{
     margin: 0px;
+ }
+ #BlogDivs {
+    display: flex;
+    flex-wrap: wrap;
  }
 }
