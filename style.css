@@ -376,6 +376,7 @@ section.Service > div > div > p {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    height: 500px;
 }
 form{
     display: flex;
@@ -395,6 +396,8 @@ form{
     font-family: "Black Han Sans", sans-serif;
     color: rgb(112,92,164);
     text-align: start;
+    margin-left: 30px;
+    font-size: 20px;
 }
 .Contact button{
     color: rgb(112,92,164);
@@ -409,4 +412,32 @@ form{
 #WriteSmtg{
     height: 160px;
     width: 700px;
+}
+.Copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+hr{
+    background-color: rgb(163, 163, 163);
+    width: 750px;
+}
+#icon i{
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+#icon{
+    display: flex;
+    color: grey;
+}
+.Copyright p{
+    color: grey;
+    font-family: "Noto Sans JP", sans-serif;
 }
