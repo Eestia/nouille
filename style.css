@@ -444,7 +444,7 @@ hr{
     font-family: "Noto Sans JP", sans-serif;
 }
 /* Responsive */
-@media (min-width:420px) and (max-width:600px){
+@media (max-width:600px){
  nav{
     font-size: 12px;
  }
