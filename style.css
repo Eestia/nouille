@@ -475,5 +475,24 @@ hr{
     display: flex;
     flex-direction: column;
  }
- 
+ .Hire > h5{
+    font-size: 12px;
+ }
+ .Hire{
+    font-size: 15px;
+ }
+ .Testimonial div{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+ }
+ .Testimonial{
+    height: 700px;
+ }
+ .Testimonial p{
+    margin: 0px;
+ }
+ .Testimonial h3{
+    margin: 0px;
+ }
 }
