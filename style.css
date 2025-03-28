@@ -507,9 +507,13 @@ hr{
     height: 1500px;
 }
 #BlogDiv2 p{
-    
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
 }
 #BlogDiv1 p{
-    
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
 }
 }
