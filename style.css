@@ -436,6 +436,7 @@ hr{
 #icon{
     display: flex;
     color: grey;
+    gap: 5px;
 }
 .Copyright p{
     color: grey;
