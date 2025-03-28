@@ -337,6 +337,7 @@ section.Service > div > div > p {
 #BlogDiv2 div{
     display: flex;
     flex-direction: column;
+    text-align:justify;
 }
 .Blog p{
     font-size: 15px;
@@ -351,10 +352,6 @@ section.Service > div > div > p {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-#BlogDiv1 div{
-    height: 250px;
-    width: 700px;
 }
 #titreBlog{
     font-family: "Black Han Sans", sans-serif;
@@ -494,8 +491,25 @@ hr{
  .Testimonial h3{
     margin: 0px;
  }
- #BlogDivs {
+ #BlogDiv2{
+    width: 350px;
+    height: 700px;
     display: flex;
-    flex-wrap: wrap;
- }
+    flex-direction: column;
+}
+#BlogDiv1{
+    width: 350px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.Blog{
+    height: 1500px;
+}
+#BlogDiv2 p{
+    
+}
+#BlogDiv1 p{
+    
+}
 }
