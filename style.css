@@ -380,6 +380,9 @@ section.Service > div > div > p {
 form{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
 }
 .Contact p{
     font-family: "Noto Sans JP", sans-serif;
@@ -394,5 +397,16 @@ form{
     text-align: start;
 }
 .Contact button{
-    
+    color: rgb(112,92,164);
+    background-color: white;
+    border: 1px solid rgb(112,92,164);
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    align-items: center;
+    font-size: 19px;
+}
+#WriteSmtg{
+    height: 160px;
+    width: 700px;
 }
