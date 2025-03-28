@@ -471,4 +471,9 @@ hr{
     display: flex;
     flex-direction: column;
  }
+ .Pricing > div{
+    display: flex;
+    flex-direction: column;
+ }
+ 
 }
