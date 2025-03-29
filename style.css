@@ -506,7 +506,7 @@ hr{
     flex-direction: column;
 }
 .Blog{
-    height: 1500px;
+    height: 1600px;
 }
 #BlogDiv2 p{
     padding-left: 15px;
@@ -533,6 +533,7 @@ hr{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 800px;
+    height: 900px;
+    /* background-color: blue; */
 }
 }
