@@ -536,4 +536,13 @@ hr{
     height: 900px;
     /* background-color: blue; */
 }
+.Hire h5{
+    font-size: 11px;
+}
+.Hire p{
+    font-size: 12px;
+}
+.Hire button{
+    font-size: 12px;
+}
 }
