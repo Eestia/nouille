@@ -447,7 +447,7 @@ hr{
 /* Responsive */
 @media (max-width:600px){
  nav{
-    font-size: 12px;
+    font-size: 10px;
  }
  main>img{
     height: 300px;
@@ -519,12 +519,12 @@ hr{
 }
 #WriteSmtg{
     height: 160px;
-    width: 400px;
+    width: 300px;
 }
 .Copyright p{
-    font-size: 15px;
+    font-size: 11px;
 }
 hr{
-    width: 400px;
+    width: 250px;
 }
 }
