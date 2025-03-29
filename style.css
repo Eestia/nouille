@@ -488,7 +488,7 @@ hr{
     height: 700px;
  }
  .Testimonial p{
-    margin: 0px;
+    margin-top: 50px;
  }
  .Testimonial h3{
     margin: 0px;
@@ -533,7 +533,7 @@ hr{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 1000px;
+    height: fit-content;
     /* background-color: blue; */
 }
 .Hire h5{
