@@ -516,4 +516,11 @@ hr{
     padding-right: 15px;
     font-size: 13px;
 }
+#WriteSmtg{
+    height: 160px;
+    width: 400px;
+}
+.Copyright p{
+    font-size: 15px;
+}
 }
