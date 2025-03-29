@@ -241,6 +241,7 @@ section.Service > div > div > p {
     background-color: white;
     margin: 20px;
 }
+/* Testimonial */
 .Testimonial{
     display: flex;
     align-items: center;
@@ -526,5 +527,12 @@ hr{
 }
 hr{
     width: 250px;
+}
+.Testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
 }
 }
