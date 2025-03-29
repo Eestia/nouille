@@ -524,4 +524,7 @@ hr{
 .Copyright p{
     font-size: 15px;
 }
+hr{
+    width: 400px;
+}
 }
